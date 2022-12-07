@@ -2,7 +2,6 @@
     "name": "elegance/datalayer-mysql",
     "description": "Manipula conexões com bancos MYSQL e MARIADB",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "André Ricardo",
@@ -18,6 +17,6 @@
         ]
     },
     "require": {
-        "elegance/datalayer": "dev-main"
+        "elegance/datalayer": "^1.0"
     }
 }
