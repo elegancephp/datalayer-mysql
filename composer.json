@@ -1,0 +1,23 @@
+{
+    "name": "elegance/datalayer-mysql",
+    "description": "Manipula conexões com bancos MYSQL e MARIADB",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": [
+            "helper/script/datalayer-type.php"
+        ]
+    },
+    "require": {
+        "elegance/datalayer": "dev-main"
+    }
+}
