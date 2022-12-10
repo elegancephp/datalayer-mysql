@@ -17,6 +17,7 @@
         ]
     },
     "require": {
+        "ext-pdo_mysql": "*",
         "elegance/datalayer": "^1.0"
     }
 }
