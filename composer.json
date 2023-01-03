@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "": "class/"
+            "": "source/"
         },
         "files": [
             "helper/script/datalayer-type.php"
@@ -18,6 +18,6 @@
     },
     "require": {
         "ext-pdo_mysql": "*",
-        "elegance/datalayer": "^1.0"
+        "elegance/datalayer": "^2.0"
     }
 }
